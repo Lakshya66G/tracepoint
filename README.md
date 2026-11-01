@@ -2,6 +2,9 @@
 
 Tracepoint is a clean, minimal packet-analysis web app that turns raw PCAP captures into readable event rows. It is built for beginners and students who may find Wireshark overwhelming, so it shows only the information they need and hides deep packet-level noise by default.
 
+## Project Demo --- [Watch the TracePoint demo](https://drive.google.com/file/d/1jnBoHT39c4IeLRJ96DPXJUSMDTnQqw5Z/view?usp=sharing)
+## [Visit Our Website](https://tracepoint-cello.vercel.app/)
+
 ## What it does
 
 Tracepoint accepts a packet capture file and converts it into a simplified analysis view similar to Wireshark, but easier to read.
