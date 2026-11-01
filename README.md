@@ -116,7 +116,7 @@ py -m venv backend\.venv
 cd tracepoint\backend
 .\.venv\Scripts\python.exe -m uvicorn app.main:app --reload
 ```
-### 3. Serve the Frontend
+### 3. Serve the Frontend(New Terminal)
 
 ```bash
 cd tracepoint
