@@ -103,27 +103,24 @@ A typical layout is:
 
 ## Setup
 
-### 1. Clone or download the project
-Make sure the frontend and backend files are available locally.
-
-### 2. Install dependencies
-
-If the project uses a Python backend, install the backend requirements:
+### 1. Clone and Install Dependencies 
+```bash
+git clone https://github.com/lakshya66g/tracepoint.git
+cd tracepoint
+py -m venv backend\.venv
+.\backend\.venv\Scripts\python.exe -m pip install -r backend\requirements.txt
+```
+### 2. Start Backend
 
 ```bash
-pip install -r backend/requirements.txt
+cd tracepoint\backend
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload
 ```
+### 3. Serve the Frontend
 
-If the frontend is served as a static site, no additional build step is required unless a bundler is being used.
-
-### 3. Configure the backend URL
-
-If the frontend talks to a local backend, update the API base URL in the frontend code if needed.
-
-Common example:
-
-```text
-http://127.0.0.1:8000
+```bash
+cd tracepoint
+py -m http.server 5173
 ```
 
 ## Run the project
