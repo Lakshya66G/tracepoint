@@ -4,6 +4,7 @@ Tracepoint is a clean, minimal packet-analysis web app that turns raw PCAP captu
 
 ## NOTE - Deploy link only accepts maximum of 4MB packet capture file. But when hosted locally it will accept upto 100MB packet capture files
 
+## You can use sample files provided in the sample folder
 ## Project Demo --- [Watch the TracePoint demo](https://drive.google.com/file/d/1jnBoHT39c4IeLRJ96DPXJUSMDTnQqw5Z/view?usp=sharing)
 ## [Visit Our Website](https://tracepoint-cello.vercel.app/)
 
